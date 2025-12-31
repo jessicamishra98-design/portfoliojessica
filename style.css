@@ -1,0 +1,65 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background: linear-gradient(90deg, rgb(152, 176, 20), rgb(230, 66, 16));
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     
+}
+    #header{
+    background:linear-gradient(90deg, rgb(204, 165, 9), rgb(189, 174, 138));
+    position: sticky;
+    top:0;
+    height:70px;
+    backdrop-filter: blur(20px);
+    
+}
+#nav, ul{
+    display: flex;
+    justify-content: space-between;
+    justify-items: right;
+    gap: 15px;
+    color: white;
+    text-decoration: none;
+}
+ul{
+margin-top: 25px;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+}
+#img1{
+    display:flex;
+    height: 250px;
+    width:250px;
+    border-radius: 50%;
+    box-shadow:0px 1px 20px rgba(32, 6, 12, 0.631);
+    box-sizing: border-box;
+    border: 15px rgb(104, 130, 135);
+    justify-content: center;
+    justify-self: center;
+    justify-items: center;
+    margin: 30px;
+}
+#bio{
+    text-align: center;
+}
+.div{
+    background: rgb(rgb(196, 133, 133), rgb(149, 221, 149), rgb(122, 122, 142));
+    padding:50px;
+    height: 35vh;
+    margin: 10px;
+    border-radius: 30px;
+    box-shadow: 0px 1px 20px rgb(189, 138, 138);
+}
+.div:hover{
+    box-shadow: 0px 1px 20px rgb(red, green, blue)
+}
+footer{
+    background:linear-gradient(90deg, rgb(94, 94, 143), rgb(189, 138, 138));
+    text-align: center;
+}
