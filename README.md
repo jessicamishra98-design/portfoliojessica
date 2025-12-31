@@ -1,2 +1,2 @@
 # portfoliojessica
-A brief details about my codes
+A brief details about me
